@@ -1,0 +1,28 @@
+<ion-view view-title="Edit Notes">
+    <ion-content >
+
+        <div class="list card">
+            <div class="item item-input-inset">
+                <label class="item-input item-floating-label"> <span class="input-label">Title :</span>
+
+                    <input type="text" value="{{note.title}}"  ng-model="note.title" placeholder="Title">
+
+                </label>
+            </div>
+            <div class="item item-input-inset">
+
+                <label class="item-input item-floating-label">
+                    <span class="input-label">Description :</span>
+                    <textarea ng-model="note.description" rows="5" cols="50" placeholder="Description">{{note.description}}</textarea>
+
+                </label>
+
+            </div>
+            <div class="padding">
+                <button class="button button-block button-positive" ng-click="save()">save</button>
+            </div>
+            
+            
+        </div>
+    </ion-content>
+</ion-view>

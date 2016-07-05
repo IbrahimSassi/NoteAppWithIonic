@@ -1,0 +1,11 @@
+/* Empty. Add your own CSS if you like */
+/* Styles go here */
+
+
+.ionic_ratings .icon {
+    font-size:30px;
+}
+
+.ionic_ratings .read_only {
+    pointer-events:none;
+}
